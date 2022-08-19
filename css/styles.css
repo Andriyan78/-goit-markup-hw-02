@@ -1,0 +1,26 @@
+:root{
+    /* fonts */
+    --main-font: 'Roboto',sans-serif;
+    --logo-font: 'Raleway',sans-serif;
+    /* colors */
+    --h-color:#212121;
+    --color-text:#757575;
+    --btnlet-color:#ffff;
+    --filter-color:#F5F4FA;
+    /* bcg colors */
+    --btnbg-color:#2196F3;
+    --footbcg-color:#2F303A;
+    /* Others */
+
+}
+body{
+  
+}
+/* reset */
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+.list{
+    list-style: none;
+}
