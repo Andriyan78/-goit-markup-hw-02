@@ -1,11 +1,11 @@
 :root{
     /* fonts */
     --main-font: 'Roboto',sans-serif;
-    --logo-font: 'Raleway',sans-serif;
+    --logo-font: 'Raleway';
     /* colors */
     --h-color:#212121;
     --color-text:#757575;
-    --btnlet-color:#ffff;
+    --btnlet-color:#FFFFFF;
     --filter-color:#F5F4FA;
     /* bcg colors */
     --btnbg-color:#2196F3;
@@ -13,14 +13,98 @@
     /* Others */
 
 }
-body{
-  
+.page{
+background-color: var(--btnlet-color);
+    color: var(--color-text);
+    font-family: var(--main-font);
 }
 /* reset */
 .link {
-    text-decoration: none;
+   text-decoration: none;
     color: currentColor;
 }
 .list{
     list-style: none;
+}
+.webstudio{
+    color: var(--btnbg-color);
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link.current{
+    color: var(--btnbg-color);
+}
+.tele,
+.mail {   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.mail:hover,
+.mail:focus {
+    color: var(--btnbg-color);
+}
+.hat {
+    background-color: var(--footbcg-color);
+}
+.hat-title {
+    color: var(--btnlet-color);
+}
+.request {
+    background-color: var(--btnbg-color);
+    color: var(--btnlet-color);
+}
+.h1,h2,h3,h4,h5,h6{
+    color: var(--h-color);
+}
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--h-color);
+}
+.projects {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+}
+.buttonall:hover,
+.buttonall:focus {
+    background-color: var(--btnbg-color);
+    color: var(--btnlet-color);
+}
+.foot {
+    background-color: var(--footbcg-color);
+}
+.cityaddr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--btnlet-color);
+}
+.contactmail,
+.contacttel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
