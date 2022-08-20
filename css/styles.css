@@ -33,11 +33,18 @@ background-color: var(--btnlet-color);
     font-size: 26px;
     line-height: 1.19;
 }
+.accent{
+    color: var(--h-color)
+}
+.accent-foot{
+    color: var(--btnlet-color);
+}
 .site-nav{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--h-color);
 }
 .site-nav .link.current{
     color: var(--btnbg-color);
@@ -53,45 +60,91 @@ background-color: var(--btnlet-color);
 .mail:focus {
     color: var(--btnbg-color);
 }
+.tele:hover,
+.tele:focus {
+    color: var(--btnbg-color);
+}
 .hat {
     background-color: var(--footbcg-color);
 }
 .hat-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/40);
+    text-align: center;
     color: var(--btnlet-color);
 }
-.request {
+.request{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    text-align: center;
     background-color: var(--btnbg-color);
     color: var(--btnlet-color);
 }
-.h1,h2,h3,h4,h5,h6{
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14) ;
+    letter-spacing: 0.03em;
     color: var(--h-color);
 }
-.title {
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--h-color);
+}
+.title-project{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--h-color);
 }
-.buttons {
+.features{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
+.team-section{
+    background-color: var(--filter-color);
+}
+.team-list{
+    background-color: var(--btnlet-color);
+}
+.team{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.buttons{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: var(--h-color);
 }
-.projects {
+.projects{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 .buttonall:hover,
 .buttonall:focus {
     background-color: var(--btnbg-color);
     color: var(--btnlet-color);
 }
-.foot {
+.foot{
     background-color: var(--footbcg-color);
 }
-.cityaddr {
+.cityaddr{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -107,4 +160,16 @@ background-color: var(--btnlet-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.cityaddr:hover,
+.cityaddr:focus{
+    color: var(--btnbg-color);
+}
+.contactmail:hover,
+.contactmail:focus {
+    color: var(--btnbg-color);
+}
+.contacttel:hover,
+.contacttel:focus {
+    color: var(--btnbg-color);
 }
